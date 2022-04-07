@@ -1,1 +1,1 @@
-first low level prog
+readme  for 0x00-hello_world
