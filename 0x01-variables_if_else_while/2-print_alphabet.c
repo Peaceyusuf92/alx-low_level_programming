@@ -3,7 +3,7 @@
 /**
  * main - main block
  * Description: print alphabets in lower case
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
