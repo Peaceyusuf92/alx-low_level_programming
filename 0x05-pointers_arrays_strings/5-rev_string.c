@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * rev_string - reverse string
- * @s: input
- * Return: no return
+ * rev_string - reverses a string.
+ * @s: input string.
+ * Return: no return.
  */
-
 void rev_string(char *s)
 {
-	int count = 0, a, b;
+	int count = 0, i, j;
+
 	char *str, temp;
 
 	while (count >= 0)
@@ -17,12 +17,11 @@ void rev_string(char *s)
 		count++;
 	}
 	str = s;
-
-	for (a = 0; a < (count - 1); a++)
+	for (i = 0; i < (count - 1); i++)
 	{
-		for (b = a + 1; b > 0; b--)
+		for (j = i + 1; j > 0; j--)
 		{
-			temp = *(str + (b - 1));
+			temp = *(str + j);
 			*(str + j) = *(str + (j - 1));
 			*(str + (j - 1)) = temp;
 		}
