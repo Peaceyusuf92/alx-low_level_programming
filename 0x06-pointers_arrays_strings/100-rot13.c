@@ -17,7 +17,7 @@ char *rot13(char *s)
 		{
 			if (*(s + sum) == alpha[a])
 			{
-				*(s + count) = rot13[a];
+				*(s + sum) = rot13[a];
 				break;
 			}
 		}
