@@ -22,7 +22,7 @@ void print_number(int n)
 
 	while (b > 9)
 	{
-		d = d / 10;
+		b = b / 10;
 		sum *= 10;
 	}
 
