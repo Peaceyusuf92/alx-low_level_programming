@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- * main - print the minimum number of coin to make change for an amount of money
+ * main - print the minim
+ * um number of coin to make change for an amount of money
  * @argc: number of command line arguments
  * @argv: array containing command line arguments
  * Return: 0
