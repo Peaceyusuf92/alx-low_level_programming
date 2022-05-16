@@ -4,6 +4,7 @@
  * main - check the code for Holberton school
  * @argc: argument count
  * @argv: argument vector
+ *
  * Return: always 0
  */
 int main (int argc, char *argv[])
