@@ -15,14 +15,14 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-	int a = 0;
+	int i = 0;
 
-	while (a < 10)
+	while (i < 10)
 	{
-		if (s[0] == ops->op[a])
+		if (s[0] == ops->op[i])
 			break;
-		a++;
+		i++;
 	}
 
-	return (ops[a / 2].f);
+	return (ops[i / 2].f);
 }
