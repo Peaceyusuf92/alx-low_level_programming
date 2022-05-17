@@ -11,13 +11,13 @@ void print_all(const char * const format, ...);
 /**
  * struct print - multiple choice print
  * @x: char type of print
- * @T_func: function
+ * @func: function
  */
 
 typedef struct print
 {
 	char *x;
-	void (*T_func)(va_list);
+	void (*func)(va_list);
 } t_print;
 
 #endif
