@@ -1,1 +1,1 @@
-Readme file for singly linked list
+ Readme file for linked list
