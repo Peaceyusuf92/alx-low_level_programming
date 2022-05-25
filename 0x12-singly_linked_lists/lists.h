@@ -6,13 +6,15 @@
 #include <string.h>
 
 /**
- * struct list_s - single linked list
- * @str: string for malloc
- * @len: string lenght
- * @next: next node
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
  *
- * Description: singly linked list structure
+ * Description: singly linked list node structure
+ * for Holberton project
  */
+
 typedef struct list_s
 {
 	char *str;
