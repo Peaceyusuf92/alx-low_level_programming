@@ -3,11 +3,12 @@
 /**
  * print_listint_safe - print lists
  * @head: head
- * Return: x
+ *
+ * Return: i
  */
 size_t print_listint_safe(const listint_t *head)
 {
-	size_t x = 0;
+	size_t i = 0;
 	const listint_t *temp, *node;
 
 	node = head;
@@ -16,12 +17,12 @@ size_t print_listint_safe(const listint_t *head)
 		printf("[%p] %d\n", (void *)node, node->n);
 		temp = node;
 		node = node->next;
-		x++;
+		i++;
 		if (temp <= node)
 		{
 			printf("-> [%p] %d\n", (void *)node, node->n);
 			break;
 		}
 	}
-	return (x);
+	return (i);
 }
